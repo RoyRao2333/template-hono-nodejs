@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "1.11.1",
+    "hono": "4.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.7",
+    "prettier": "3.2.5",
+    "tsx": "4.7.3"
+  }
+}

@@ -1,0 +1,1 @@
+export const honoAppPort = 3000

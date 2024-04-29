@@ -1,0 +1,5 @@
+**/*.svg
+**/*.sh
+dist
+build
+node_modules
