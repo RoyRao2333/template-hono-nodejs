@@ -5,7 +5,7 @@ import { honoAppPort } from './constants/server';
 const app = new Hono();
 
 app.get('/', (context) => {
-  return context.text('Hello Hono!');
+  return context.text(`Hello ${process.env.ENV}`);
 });
 
 console.log(`Server is running at http://localhost:${honoAppPort}/`);
